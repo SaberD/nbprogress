@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="nbprogress",
-    version="0.1.0",
+    version="0.1.1",
     python_requires='>=3.*',
     author="saberd",
     author_email="mail@saberd.com",
@@ -17,6 +17,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/saberd/nbprogress",
     packages=setuptools.find_packages(),
+    py_modules=['nbprogress'],
     install_requires=[
         'ipywidgets',
         'IPython',

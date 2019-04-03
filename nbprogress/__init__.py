@@ -1,3 +1,3 @@
 name = "nbprogress"
 
-from .main import *
+from .log import log
