@@ -11,9 +11,18 @@ setuptools.setup(
     author_email="mail@saberd.com",
     description="A lightweigth progressbar for jupyter notebook",
     long_description="Important to enable enable ipythonwidgets by running \
+        \
         ```Python \
         jupyter nbextension enable --py widgetsnbextension \
-        ```",
+        ```\
+        \
+        for jupyterlab\
+        \
+        ```bash\
+        jupyter labextension install @jupyter-widgets/jupyterlab-manager\
+        ```\
+        "
+        ,
     long_description_content_type="text/markdown",
     url="https://github.com/saberd/nbprogress",
     packages=setuptools.find_packages(),
