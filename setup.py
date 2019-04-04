@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="nbprogress",
-    version="0.1.1",
+    version="0.1.2",
     python_requires='>=3.*',
     author="saberd",
     author_email="mail@saberd.com",

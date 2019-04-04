@@ -19,7 +19,7 @@ pip install nbprogress
 ```Python
 import time
 import nbprogress
-for i in nbprogress.log(ranger(1,10), every=1):
+for i in nbprogress.log(range(1,10), every=1):
     time.sleep(1)
 ```
 ![gifs/nbprogress1.gif](gifs/nbprogress1.gif)
