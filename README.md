@@ -1,6 +1,6 @@
 # nbprogress
 
-Progressbar for Jupyter notebooks. (ref: https://github.com/kuk/log-progress)
+Progressbar for Jupyter notebooks packaged as a pip package. (ref: https://github.com/kuk/log-progress)
 
 Important to enable enable ipythonwidgets by running
 ```sh
