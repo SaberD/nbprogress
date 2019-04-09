@@ -22,7 +22,7 @@ import nbprogress
 for i in nbprogress.log(range(1,10), every=1):
     time.sleep(1)
 ```
-![gifs/nbprogress1.gif](gifs/nbprogress1.gif)
+![gifs/nbprogress1.gif](https://raw.githubusercontent.com/SaberD/nbprogress/master/gifs/nbprogress1.gif)
 
 ```Python
 import os
@@ -36,4 +36,4 @@ files = glob.glob(os.path.join(input_dir, '*'))
 for file in nbprogress.log(enumerate(files), every=1, size=len(files)):
     time.sleep(1)
 ```
-![gifs/nbprogress12.gif](gifs/nbprogress2.gif)
+![gifs/nbprogress12.gif](https://raw.githubusercontent.com/SaberD/nbprogress/master/gifs/nbprogress2.gif)

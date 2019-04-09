@@ -3,26 +3,21 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+classifiers = [
+    'Topic :: Scientific/Engineering :: Artificial Intelligence',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'License :: OSI Approved :: MIT License',
+    'Topic :: Utilities']
+
 setuptools.setup(
     name="nbprogress",
-    version="0.1.2",
+    version="0.1.4",
     python_requires='>=3.*',
     author="saberd",
     author_email="mail@saberd.com",
     description="A lightweigth progressbar for jupyter notebook",
-    long_description="Important to enable enable ipythonwidgets by running \
-        \
-        ```Python \
-        jupyter nbextension enable --py widgetsnbextension \
-        ```\
-        \
-        for jupyterlab\
-        \
-        ```bash\
-        jupyter labextension install @jupyter-widgets/jupyterlab-manager\
-        ```\
-        "
-        ,
+    long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/saberd/nbprogress",
     packages=setuptools.find_packages(),
@@ -31,9 +26,5 @@ setuptools.setup(
         'ipywidgets',
         'IPython',
     ],
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
+    classifiers=classifiers,
 )
